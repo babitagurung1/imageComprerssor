@@ -20,19 +20,20 @@ import {Link} from "react-router-dom";
       <div className="login_wrapper">
             <div className="login_form">
            
-           <form  onSubmit={submit2}>  
+           <form  onSubmit={submit2}>
+            <div className="login_header"><h1 className="login_h1 p-3">Login Form</h1> </div> 
               <div className="form-group">
-              <label htmlFor="">Usename:</label>
+              <label classname="label_text" htmlFor=""> <i class="fa fa-user" aria-hidden="true"></i>Usename:</label>
                <input type="text" className="form-control" name="username"value={input1.username} onChange={inputchange}></input>
               </div>
               <div className="form-group">
             
-            <label htmlFor="">Password:</label>
+            <label htmlFor=""> <i class="fa fa-lock" aria-hidden="true"></i>Password:</label>
              <input type="password"  className="form-control"name="password" value={input1.password} onChange={inputchange}></input>
              </div>
            <div>
            <button type="submit" className="btn mt-3 btn2">Login</button>
-               <button type="button" className="btn btn4 mt-4 mx-4"><Link to="/forgetpass">Forget password</Link></button>
+               <button type="button" className="btn btn5 mt-4 mx-4"><Link to="/forgetpass">Forget password</Link></button>
            </div>
                
                

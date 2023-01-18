@@ -1,0 +1,39 @@
+.home_container{
+    background-image: url("../../images/mailchimp-Vc2dD4l57og-unsplash.jpg");
+    background-size: cover;
+    min-height: 500px;
+   
+    
+}
+
+
+.create_h1{
+   padding-top: 6rem;
+    font-family: cursive;
+    font-size: 3rem;
+    color: rgb(64 59 59)
+}
+.create_paragraph{
+    margin-top: 6rem;
+     font-family: cursive;
+     font-size: 22px;
+     text-align: center;
+     color: rgb(64 59 59)
+ }
+.get_started_btn{
+    background-color: rgb(44, 244, 94);
+    color: white;
+    font-family: cursive;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 4rem;
+    border-radius: 16px;
+    border: 2px solid rgb(54, 65, 54);
+    box-shadow: 0px 0px 5px grey;
+}
+/*media query start here*/
+@media screen and (min-width:320px) and (max-width: 576px){
+    .home_container{
+        width: 100% !important;
+    }
+}

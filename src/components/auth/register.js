@@ -25,11 +25,15 @@ const Register=()=>{
             
             <form  onSubmit={submit}>
                 <div className='form-group'>
-                    <label htmlFor="">Username:</label>
+                    <div>
+
+                <i class="fa fa-user" aria-hidden="true" className='user1'></i>
+                    </div>
+                    <label htmlFor=""> <i class="fa fa-user" aria-hidden="true"></i>Username:</label>
                     <input className="form-control mt-2"type="text" name="username"value={data.username} onChange={datachange}></input>
                 </div>
               <div className='form-group'>
-                <label htmlFor="">Password:</label>
+                <label htmlFor=""> <i class="fa fa-lock" aria-hidden="true"></i>Password:</label>
                 <input className="form-control mt-2" type="password" name="password"value={data.password}onChange={datachange}></input>
                 
               </div>
