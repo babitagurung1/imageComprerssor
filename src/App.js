@@ -1,7 +1,7 @@
 
 import './App.css';
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Route,
   Routes
  
@@ -18,7 +18,7 @@ function App() {
   return (
     <div className='div1'> 
     
-      <Router>
+      <BrowserRouter>
       <Routes>
       <Route path="/" element={<><Header/><Home/></>} />
       <Route path="/login" element={<Login />} />
@@ -26,14 +26,11 @@ function App() {
       <Route path="/header" element={<Header/>}  />
       <Route path="/about" element={<><Header/><About/></>}/>
       <Route path="/register" element={<Register/>}/>
-      <Route path='/changepassword' element={Changepassword}/>
+      <Route path='/changepassword' element={<Changepassword/>}/>
       </Routes>
-      </Router>
-    
-    
+      </BrowserRouter>
     
     </div>
-    
   
   );
 }

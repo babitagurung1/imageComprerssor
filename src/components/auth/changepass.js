@@ -26,7 +26,7 @@ const Changepassword=()=>{
                   <label>Confirm Password</label>
                   <input type="password" className="form-control" onChange={passwordchange}name="confirmpassword" value={password.confirmpassword}></input>
                   </div>
-                  <button type="buttn"> Submit</button>
+                  <button type="button"> Submit</button>
 
                 </form>
             </div>
