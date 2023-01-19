@@ -8,6 +8,7 @@ const Home=()=>{
     <div className='row'>
         <div className='col-lg-6 col-md-12 col-sm-12'>
         <h1 className='create_h1'> CREATE ACCOUNT</h1>
+        
         <button className='btn get_started_btn'> <Link to="/register">Get Started</Link></button>
         </div>
         <div className='col-lg-6 col-md-12 col-sm-12'>

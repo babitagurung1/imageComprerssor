@@ -23,6 +23,7 @@ const Header=()=>{
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><Link className="link1" to="/login">login</Link></li>
             <li><Link to="/forgetpass">Forget Password</Link></li>
+            <li><Link to ="/changepassword">Change Password</Link></li>
            
             
           </ul>

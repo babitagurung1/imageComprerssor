@@ -12,7 +12,7 @@ import Forget from './components/auth/forgetpass';
 import Header from './components/layout/header/header';
 import About from './components/pages/about';
 import Home from "./components/pages/home";
-import Changepassword from './components/auth/changepass';
+import Changepassword from './components/auth/changepassword';
 
 function App() {
   return (
