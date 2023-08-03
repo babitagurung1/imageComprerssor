@@ -113,8 +113,6 @@ const zipFile=()=>{
   link.click()
   URL.revokeObjectURL(url)
   })
-
-
 }
   return (
     <>
